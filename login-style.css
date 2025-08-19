@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D071F9;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.text {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.text:focus {
+  border-color: #D071F9;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: #D071F9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #a84cd6;
+}
+
+.forgetpass {
+  text-align: right;
+  margin: 8px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #D071F9;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.signup {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+
+
+@media(max-width:470px)
+{
+.center {
+   
+  width: 88px;
+  
+}
+}
